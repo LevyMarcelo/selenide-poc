@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'br.com.selenide'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'com.codeborne', name: 'selenide', version: '5.6.0'
+}
